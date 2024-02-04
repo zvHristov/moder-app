@@ -35,6 +35,14 @@ cd frontend
 npm install
 npm start
 ```
+4. Create a backend/ `.env` file in the root directory and add your OpenAI API key:
+
+```plaintext
+JWT_REFRESH_SECRET=''
+JWT_ACCESS_SECRET = ''
+MONGO_URI=''
+SECRET=''
+```
 ## Additional Use Cases
 In the frontend, I adopted a Feature Sliced Design, organizing components based on features rather than traditional type-based directories. This approach enhances modularity and scalability. Each feature slice contains its components, styles, and logic, promoting a clear separation of concerns and facilitating future expansions.
 
