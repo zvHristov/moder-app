@@ -10,9 +10,7 @@
 ## Change Configurations
 go to /backend/src/app.module.ts
 add your Databases mongoDB url
-should be ```bash 
-    mongodb+srv
-```
+should be  [mongodb+srv]
 Start the  database (you need mongodb). 
 See [here](https://www.mongodb.com/cloud/atlas/efficiency?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general-phrase_prosp-brand_gic-null_ww-multi_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=p&utm_ad_campaign_id=11295578158&adgroup=116363205048&cq_cmp=11295578158&gad_source=1&gclid=CjwKCAiAiP2tBhBXEiwACslfngFnaFlpMoVQscrI77uHbQQ5zSei0u0GdQmC0EF-Gfk_Zi0X2UgFxxoCa_0QAvD_BwE) for other options information: 
 mongoDB
