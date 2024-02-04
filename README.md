@@ -35,7 +35,7 @@ cd frontend
 npm install
 npm start
 ```
-4. Create a backend/ `.env` file in the root directory and add your OpenAI API key:
+4. Create a backend/ `.env` file in the root directory and add your key:
 
 ```plaintext
 JWT_REFRESH_SECRET=''
@@ -51,6 +51,13 @@ In the frontend, I adopted a Feature Sliced Design, organizing components based 
 The project prioritizes security through robust authentication and authorization mechanisms. Utilizing JSON Web Tokens (JWT) ensures secure user authentication and authorization on the server. The implementation includes features such as access and refresh tokens, preventing unauthorized access and enhancing overall system security. Passwords are securely hashed using the Argon2 algorithm, reinforcing the protection of sensitive user data. By following industry best practices, the project minimizes security risks and lays a solid foundation for future enhancements.
 
 Feel free to modify these descriptions based on the specific details and nuances of your project. If you have more specific questions or need assistance with other aspects of your project description, feel free to ask!
+## Preview
+Please ensure that the server is running and has been started on the host.
+
+![should be API works, hello word](api.png)
+![should be SignIn OR SignUp](modern_app.png)
+![should be App create user](user_screen.png)
+![should be create user](server_work.png)
 
 ## MIT License
 
