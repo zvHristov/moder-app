@@ -15,7 +15,7 @@ import 'dotenv/config'
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot('mongodb+srv://riderhotalich:saNivswXJ1wxZrZO@cluster0.klqcwci.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot(''),
     UsersModule,
     AuthModule,
   ],
